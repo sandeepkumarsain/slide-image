@@ -23,14 +23,27 @@
 .arrow
 {
     position: absolute;
-    top: 200px;
+    top: 50%;
     height: 30px;
     width: 30px;
     background-color: white;
     border-radius: 50%;
 }
+.arrow span
+{
+    font-size: 30px;
+    color: gray;
+    
+}
 .arrowtwo
 {
     position: absolute;
     right: 1px;
+}
+.element
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
